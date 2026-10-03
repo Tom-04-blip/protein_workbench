@@ -1,2 +1,12 @@
-# protein_workbench
-protein engineering based machine learning 
+# 第二周蛋白质检索练习包
+
+从 [第二周实操指南](第二周_蛋白质三类检索实操指南.md) 开始。
+
+- 真实序列和PDB结构：`data/`。
+- ESM、MMseqs2、FAISS和Foldseek运行脚本：`scripts/`。
+- 可填写的 [实验报告模板](templates/实验报告模板.md)。
+- 实际完成的 [交付前验证记录](verification/验证记录.md)。
+
+本目录是独立教学资料，不修改或接管其他训练项目。模型权重、系统二进制和虚拟环境不随包分发。
+
+样本说明：公开PDB结构派生的观察序列，已记录来源与校验值；没有独立功能/家族真值。`data/synthetic`为明确标记的模拟向量，不能用于生物学准确性结论。
